@@ -38,7 +38,8 @@ A complete AI-powered career planning and mentoring system designed to help user
 - JWT, LocalStorage
 
 ## Complete Project Structure
-ai-career-assistant/
+```text
+pacement support system/
 ├── frontend/
 │   └── client/
 │       ├── public/
