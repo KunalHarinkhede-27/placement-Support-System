@@ -38,56 +38,98 @@ A complete AI-powered career planning and mentoring system designed to help user
 - JWT, LocalStorage
 
 ## Complete Project Structure
-```text
-pacement support system/
-├── frontend/
-│   └── client/
-│       ├── public/
-│       ├── src/
-│       │   ├── components/
-│       │   │   ├── Navbar.jsx
-│       │   │   ├── Sidebar.jsx
-│       │   ├── context/
-│       │   │   └── authContext.jsx
-│       │   ├── pages/
-│       │   │   ├── Home.jsx
-│       │   │   ├── ProfileForm.jsx
-│       │   │   ├── ResumeAnalysis.jsx
-│       │   │   ├── CareerRoadmap.jsx
-│       │   │   ├── JobSuggestions.jsx
-│       │   │   ├── LearningPath.jsx
-│       │   │   ├── PeerMatch.jsx
-│       │   │   ├── ProjectIdeas.jsx
-│       │   │   ├── SkillGap.jsx
-│       │   │   ├── DashBoard.jsx
-│       │   │   └── ChatbotMentor.jsx
-│       │   ├── services/
-│       │   │   └── api.js
-│       │   ├── App.jsx
-│       │   ├── App.css
-│       │   └── main.jsx
-│       ├── .env
-│       ├── vite.config.js
-│       └── package.json
-│
-├── backend/
-│   └── server.js
-│   └── routes/
-│   └── controllers/
-│   └── models/
-│   └── middleware/
-│   └── config/
-│   └── package.json
-│   └── .env
-│
-├── ai-backend/
-│   └── app.py
-│   └── resume_parser.py
-│   └── recommendation_engine.py
-│   └── chatbot_engine.py
-│   └── requirements.txt
-│
-└── README.md
+
+placement-support-system/
+
+# frontend/
+
+-- client/
+
+- public/
+
+- src/
+
+- components/
+
+- Navbar.jsx
+
+- Sidebar.jsx
+
+- context/
+
+- authContext.jsx
+
+- pages/
+
+- Home.jsx
+
+- ProfileForm.jsx
+
+ResumeAnalysis.jsx
+
+CareerRoadmap.jsx
+
+JobSuggestions.jsx
+
+LearningPath.jsx
+
+PeerMatch.jsx
+
+ProjectIdeas.jsx
+
+SkillGap.jsx
+
+DashBoard.jsx
+
+ChatbotMentor.jsx
+
+services/
+
+api.js
+
+App.jsx
+
+App.css
+
+main.jsx
+
+.env
+
+vite.config.js
+
+package.json
+
+backend/
+
+server.js
+
+routes/
+
+controllers/
+
+models/
+
+middleware/
+
+config/
+
+package.json
+
+.env
+
+ai-backend/
+
+app.py
+
+resume_parser.py
+
+recommendation_engine.py
+
+chatbot_engine.py
+
+requirements.txt
+
+README.md
 
 ** Run the Project Locally
 
