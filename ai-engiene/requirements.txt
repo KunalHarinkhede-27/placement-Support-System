@@ -1,0 +1,11 @@
+flask
+flask-cors
+openai
+python-dotenv
+PyPDF2
+scikit-learn
+numpy
+nltk
+whisper
+pydub
+requests
