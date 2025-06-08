@@ -44,90 +44,34 @@ placement-support-system/
 # frontend/
 
 -- client/
-
 - public/
-
 - src/
+  - components/
+  - context/
+  - pages/
+  - services/
 
-- components/
+- App.jsx
+- App.css
+- main.jsx
+- .env
+- vite.config.js
+- package.json
 
-- Navbar.jsx
+# backend/
 
-- Sidebar.jsx
+- server.js
+- routes/
+- controllers/
+- models/
+- middleware/
+- config/
+- package.json
+- .env
 
-- context/
+# ai-backend/
 
-- authContext.jsx
-
-- pages/
-
-- Home.jsx
-
-- ProfileForm.jsx
-
-ResumeAnalysis.jsx
-
-CareerRoadmap.jsx
-
-JobSuggestions.jsx
-
-LearningPath.jsx
-
-PeerMatch.jsx
-
-ProjectIdeas.jsx
-
-SkillGap.jsx
-
-DashBoard.jsx
-
-ChatbotMentor.jsx
-
-services/
-
-api.js
-
-App.jsx
-
-App.css
-
-main.jsx
-
-.env
-
-vite.config.js
-
-package.json
-
-backend/
-
-server.js
-
-routes/
-
-controllers/
-
-models/
-
-middleware/
-
-config/
-
-package.json
-
-.env
-
-ai-backend/
-
-app.py
-
-resume_parser.py
-
-recommendation_engine.py
-
-chatbot_engine.py
-
-requirements.txt
+# requirements.txt
 
 README.md
 
