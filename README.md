@@ -1,8 +1,8 @@
-Placement Support System
+## Placement Support System
 
 A complete AI-powered career planning and mentoring system designed to help users grow professionally through job matching, skill analysis, resume evaluation, and smart career roadmaps.
 
-** Features
+# Features
 
 Authentication (Login/Register, Role-based)
 Resume Analysis using AI
@@ -15,29 +15,29 @@ Peer Match System
 Project Ideas Generator
 Admin Dashboard (Role: admin)
 
-** Tech Stack Layer
+## Tech Stack Layer
 
-Technology Used
+# Technology Used
 
-Frontend
+** Frontend
 React.js, Vite, React Router
 
-Backend
+** Backend
 Node.js, Express.js
 
-AI Logic
+** AI Logic
 Python, Flask
 
-UI Styling
+** UI Styling
 CSS3
 
-API Comm.
+** API Comm.
 Axios
 
-Auth
+** Auth
 JWT, LocalStorage
 
-Complete Project Structure
+## Complete Project Structure
 ai-career-assistant/
 ├── frontend/
 │   └── client/
@@ -88,12 +88,12 @@ ai-career-assistant/
 │
 └── README.md
 
-Run the Project Locally
+** Run the Project Locally
 
-Step 1: Clone the Repository
+# Step 1: Clone the Repository
 git clone https://github.com/kunalharinkhede-27/Placement-Support-System.git
 cd Placement-Support-System
-Step 2: Frontend (React + Vite)
+# Step 2: Frontend (React + Vite)
 cd frontend/client
 npm install
 Create a .env file inside frontend/client:
@@ -101,7 +101,7 @@ REACT_APP_NODE_API=http://localhost:8000/api
 REACT_APP_PY_API=http://localhost:5000/api
 Then, run the dev server:
 npm run dev
-Step 3: Backend (Node.js)
+# Step 3: Backend (Node.js)
 cd backend
 npm install
 Add a .env file with:
@@ -110,7 +110,7 @@ MONGO_URI=your_mongodb_connection
 JWT_SECRET=your_jwt_secret
 Run the backend server:
 npm run dev
-Step 4: AI Python Backend (Flask)
+# Step 4: AI Python Backend (Flask)
 cd ai-engiene
 python -m venv venv
 source venv/bin/activate  # for Windows: venv\Scripts\activate
@@ -118,16 +118,16 @@ pip install -r requirements.txt
 Run the AI API:
 python app.py
 
-Contributing
+## Contributing
 We welcome contributions!
 
-Fork the repo
+** Fork the repo
 Create a feature branch git checkout -b feature-name
 Commit your changes git commit -m "Added feature"
 Push to your branch git push origin feature-name
 Create a Pull Request
 
-**License
+** License
 This project is licensed under the MIT License.
 
 ** Developed By
